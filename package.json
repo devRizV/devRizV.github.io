@@ -1,0 +1,15 @@
+{
+  "name": "rakibhossain.github.io",
+  "version": "1.0.0",
+  "description": "A website show case my projects and work as my portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.11"
+  }
+}

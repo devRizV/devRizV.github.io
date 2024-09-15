@@ -1,9 +1,4 @@
-document.getElementById('contact-form').addEventListener('submit', function (event) {
-    event.preventDefault();
-
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
-
-    alert(`Thank you, ${name}! We have received your message.`);
+// Example to toggle dark mode on a button click
+document.querySelector('#toggle-dark-mode').addEventListener('click', () => {
+    document.documentElement.classList.toggle('dark');
 });
